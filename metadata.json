@@ -1,0 +1,5 @@
+{
+  "name": "DevOps Assistant: Syntax Checker",
+  "description": "An intelligent assistant to help check and debug syntax errors in DevOps-related files like YAML, JSON, Dockerfiles, Terraform, and more. It highlights errors, explains them, and suggests corrections and best practices.",
+  "requestFramePermissions": []
+}

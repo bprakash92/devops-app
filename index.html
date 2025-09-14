@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevOps Assistant: Syntax Checker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bkg': '#1a1b26',
+              'surface': '#24283b',
+              'overlay': '#3b4261',
+              'muted': '#545c7e',
+              'subtle': '#737a9a',
+              'text': '#c0caf5',
+              'love': '#bb9af7',
+              'gold': '#e0af68',
+              'rose': '#f7768e',
+              'pine': '#3d59a1',
+              'foam': '#9ece6a',
+              'iris': '#9aa5ce',
+              'highlight-low': 'rgba(122, 128, 159, 0.1)',
+              'highlight-med': 'rgba(122, 128, 159, 0.2)',
+              'highlight-high': 'rgba(122, 128, 159, 0.4)',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-bkg text-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
